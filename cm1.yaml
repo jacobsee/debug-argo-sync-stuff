@@ -4,4 +4,4 @@ metadata:
   name: cm1
 data:
   a-file: |
-    some stuff
+    some stuff - cause a sync
