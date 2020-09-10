@@ -15,7 +15,7 @@ spec:
         - "/bin/bash"
         - "-c"
         - |
-          echo "things are fine a second time!"
+          echo "things are fine a third time!"
           exit 0
       restartPolicy: Never
       terminationGracePeriodSeconds: 30
