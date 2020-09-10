@@ -4,4 +4,4 @@ metadata:
   name: cm2
 data:
   another-file: |
-    some more stuff
+    some more stuff to force a sync
