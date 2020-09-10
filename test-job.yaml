@@ -16,3 +16,4 @@ spec:
         - "-c"
         - |
           gimme some syntax errors >:)
+        restartPolicy: Never
