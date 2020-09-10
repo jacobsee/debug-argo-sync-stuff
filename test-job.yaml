@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: test-job
+  annotations:
+    argocd.argoproj.io/hook: PostSync
+    argocd.argoproj.io/hook-delete-policy: HookSucceeded
+spec:
+  template:
+    spec:
+      containers:
+      - name: test-a-thing
+        image: "quay.io/openshift/origin-cli"
+        command:
+        - "/bin/bash"
+        - "-c"
+        - |
+          gimme some syntax errors >:)
