@@ -15,8 +15,8 @@ spec:
         - "/bin/bash"
         - "-c"
         - |
-          echo "things are not fine!"
-          exit 1
+          echo "things are fine now!"
+          exit 0
       restartPolicy: Never
       terminationGracePeriodSeconds: 30
       activeDeadlineSeconds: 500
