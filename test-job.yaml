@@ -17,3 +17,6 @@ spec:
         - |
           gimme some syntax errors >:)
       restartPolicy: Never
+      terminationGracePeriodSeconds: 30
+      activeDeadlineSeconds: 500
+      dnsPolicy: ClusterFirst
