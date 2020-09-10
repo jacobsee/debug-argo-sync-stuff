@@ -15,7 +15,7 @@ spec:
         - "/bin/bash"
         - "-c"
         - |
-          gimme some syntax errors >:)
+          return 1
       restartPolicy: Never
       terminationGracePeriodSeconds: 30
       activeDeadlineSeconds: 500
